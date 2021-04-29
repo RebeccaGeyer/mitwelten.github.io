@@ -1,0 +1,23 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="AudioMoths" id="AudioMoths">
+	<SimpleField name="NR" type="string"></SimpleField>
+	<SimpleField name="Standort" type="string"></SimpleField>
+</Schema>
+<Folder><name>AudioMoths</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AudioMoths">
+		<SimpleData name="NR">AM2</SimpleData>
+		<SimpleData name="Standort">Baum Schafwiese</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.61492991646701,47.5361346034194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#AudioMoths">
+		<SimpleData name="NR">AM1</SimpleData>
+		<SimpleData name="Standort">Geräteschuppen</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>7.61466731853466,47.535145683694</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
